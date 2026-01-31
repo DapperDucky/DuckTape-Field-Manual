@@ -1,0 +1,76 @@
+# OWASP AI Top 10
+
+## Contents
++ [Overview](#overview)
++ [Prompt Injection - LLM01:2025](#prompt-injection)
++ [Sensitive Information Disclosure - LLM02:2025](#sensitive-information-disclosure---llm022025)
++ [Supply Chain - LLM03:2025](#supply-chain---llm032025)
++ [Data and Model Poisoning - LLM04:2025](#data-and-model-poisoning---llm042025)
++ [Improper Output Handling - LLM05:2025](#improper-output-handling---llm052025)
++ [Excessive Agency - LLM06:2025](#excessive-agency---llm062025)
++ [System Prompt Leakage - LLM07:2025](#system-prompt-leakage---llm072025)
++ [Vector and Embedding Weakness - LLM08:2025](#vector-and-embedding-weakness---llm082025)
++ [Misinformation - LLM09:2025](#misinformation---llm092025)
++ [Unbounded Consumption - LLM010:2025](#unbounded-consumption---llm0102025)
++ [Insecure Output Handling](#insecure-output-handling)
++ [Training Data](#training-data)
++ [Over Reliance](#over-reliance)
++ [References](#references)
+
+## Overview
+This document goes over the current top 10 vulnerabilities for AI according to OWASP
+
+## Prompt Injection - LLM01:2025
+
+### Direct Prompt Injection
+
+### Indirect Prompt Injection
+
+### Prompt Injection Prevention
++ Privilege Control
++ Human in the Loop
++ Segregate Content from Prompts
++ Trust Boundaries
+
+## Sensitive Information Disclosure - LLM02:2025
+Bypassing system instructions promts to achieve unwanted behaviordis
+
+## Supply Chain - LLM03:2025
+## Data and Model Poisoning - LLM04:2025
+## Improper Output Handling - LLM05:2025
+## Excessive Agency - LLM06:2025
+## System Prompt Leakage - LLM07:2025
+## Vector and Embedding Weakness - LLM08:2025
+## Misinformation - LLM09:2025
+## Unbounded Consumption - LLM010:2025
+
+## Insecure Output Handling
+Not adequately validating the output of the LLM
+
+ex: LLM may generate SQL to run against a Database it has access to with potentially harmful effects
+
+### Insecure Output Handling Prevention
++ LLM is not a Trusted User
++ Validate I/O
+
+## Training Data
+
+### Training Data Prevention
++ Know your Sources
++ Verify Info
++ Validate Results
+
+## Over Reliance
+
+ex: Hallucinations
+
+### Over Reliance Prevention
++ Understand Limits
++ Train Users
++ Verify Sources
+
+## References
++ [OWASP GenAI Security Project](https://genai.owasp.org/)
++ [Project Top 10 For Large Language Model Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
++ [Explained: The OWASP Top 10 for Large Language Model Applications](https://www.youtube.com/watch?v=cYuesqIKf9A)
++ [OWASP Top 10 for LLMs - JIT Talk](https://www.youtube.com/watch?v=de9UPN7yD5U)
