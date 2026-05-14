@@ -10,7 +10,7 @@ General best practice is to write the test first, before wrtiing the method to b
 
 
 ## Conventions
-- Test libraries should be in the form of "`[Library to be tested].Tests`"
+- Test libraries s hould be in the form of "`[Library to be tested].Tests`"
    - ex: `MyLibrarby.Tests`
 - Test class names should be in the form "`[Name of class to be tested]Tests`"
    - ex: `CalculatorTests`
@@ -35,3 +35,4 @@ Act is where we perform the action being tested
 
 ## References
 - [Intro to Unit Testing in C# using XUnit](https://www.youtube.com/watch?v=ub3P8c87cwk)
+- [Mocking in C# Unit Tests - How To Test Data Access Code and More](https://www.youtube.com/watch?v=DwbYxP-etMY)
